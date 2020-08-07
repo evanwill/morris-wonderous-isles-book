@@ -1,0 +1,14 @@
+---
+# generate plain text edition
+---
+{%- assign chapters = site.html_pages | where: "layout", "chapter" -%}
+{%- for c in chapters -%}
+{% if c.part-title %}{{ c.part-title }}
+===========================================
+{% endif %}
+{% unless c.frontmatter %}CHAPTER {{ c.chapter }} {{ c.title }} 
+-------------------------------------------{% endunless %}
+
+{{ c.content | strip_html }} 
+
+{% endfor %}

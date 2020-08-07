@@ -1,0 +1,47 @@
+# morris-wondrous-isles-book
+# based on aladore-book, a Jekyll template for a web-book, by Evan Will, https://github.com/evanwill/aladore-book
+
+# site info
+title: Water of the Wondrous Isles
+tagline: William Morris (1897)
+description: "a web based digital edition of The Water of the Wondrous Isles by William Morris (1897)"
+keywords: fantasy, classic, forgotten fantasy, allegorical fantasy
+# when the site was made
+site-date: 2020
+# creator of the site
+editors: ["Evan Will"]
+
+# book info
+# metadata about the original print edition
+text-title: The Water of the Wondrous Isles
+text-authors: ["William Morris"]
+# text-illustrators: ["Alice Hylton"]
+text-publisher: Kelmscott Press
+text-pub-location: Hammersmith
+text-pub-date: 1897
+
+# urls
+url: https://evanwill.github.io
+baseurl: /morris-wondrous-isles-book
+github-repo: https://github.com/evanwill/morris-wondrous-isles-book
+
+# defaults
+defaults:
+  - scope:
+      path: "text"
+    values:
+      layout: chapter
+
+page_gen:
+  - data: 'morris-wondrous-isles'
+    template: 'items'
+    name: 'index'
+    dir: 'items'
+    extension: 'html' 
+
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE]
+
+# output settings
+sass:
+    style: compressed

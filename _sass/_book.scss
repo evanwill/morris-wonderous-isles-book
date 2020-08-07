@@ -1,0 +1,85 @@
+/* index page link buttons */
+.index-buttons {
+    padding-left: 0;
+    li {
+        list-style: none;
+        display: inline-block;
+        border: solid 1px $grey-color;
+        padding: 2px 5px;
+        margin: 4px 2px 2px 2px;
+    }
+}
+.button-all {
+    border: solid 1px $grey-color;
+    background-color: none;
+    padding: 2px 5px;
+    margin: 4px 2px 2px 2px;
+    font-size: 20px;
+    &:focus {
+        outline:none;
+    }  
+}
+.form-all {
+    background-color: $background-color;
+    border: solid 1px $grey-color;
+    border-radius: 0px;
+    font-size: 20px;
+    padding: 2px 5px;
+}
+
+/* chapter navigation */
+#chapter-nav {
+    color: $grey-color;
+    font-size: 16px;
+    text-align: right;
+    line-height: 1.25;
+    margin-bottom: 2rem;
+    a { color: $grey-color; }
+}
+#chapter-buttons {
+    display: table;
+    width: 100%;
+    margin: 2rem auto 0;
+    border-top: solid 1px $grey-color;
+    text-align: center;
+    a { 
+        color: $grey-color;
+    }
+    .lesson-nav {
+        display: table-cell;
+        padding-top: 5px;
+        font-size: 16px;
+    }
+    .prev { 
+        width: 44%;
+        border-right: solid 1px $grey-color;
+        padding-right: 8px;
+        text-align: right;
+    }
+    .next { 
+        width: 44%;
+        border-left: solid 1px $grey-color;
+        padding-left: 8px;
+        text-align: left;
+    }
+    .toc {
+        width: 12%;
+    }
+}
+#chapter-buttons:after {
+    content: "";
+    display: table;
+    clear: both;    
+}
+article {
+    ::-moz-selection {
+        background: yellow;
+    }
+    ::selection {
+        background: yellow;
+    }
+}
+#annotateBtn { 
+    cursor: pointer;
+    color: #fff;
+}
