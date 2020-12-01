@@ -7,11 +7,11 @@ layout: page
 
 `morris-wondrous-isles-book` is an *artisanal* web based digital edition.
 
-Other digitized editions:
+Other digitized editions of *The Water of the Wondrous Isles*:
 
-- [Kelmscott Press, 1897, Cleveland Museum of Art](https://archive.org/details/MorrisWaterWondrousIsles).
-- [Longmans, Green, and Co., 1897, Trent University](https://archive.org/details/waterofwondrousi0000morr) (not particularly good digitization).
-- Longmans, Green, and Co.,"Pocket edition", 1914, [Vol. I](https://archive.org/details/waterofwondrousi01morruoft), [Vol. II](https://archive.org/details/waterofwondrousi02morruoft), University of Toronto.
+- [Kelmscott Press, 1897, Cleveland Museum of Art](https://archive.org/details/MorrisWaterWondrousIsles). (Internet Archive)
+- [Longmans, Green, and Co., 1897, Trent University](https://archive.org/details/waterofwondrousi0000morr) (not particularly good digitization). (Internet Archive)
+- Longmans, Green, and Co., "Pocket edition", 1914, [Vol. I](https://archive.org/details/waterofwondrousi01morruoft), [Vol. II](https://archive.org/details/waterofwondrousi02morruoft), University of Toronto. (Internet Archive)
 - [William Morris Archive, edited by Florence S. Boos](http://morrisedition.lib.uiowa.edu/waterwondrousisles.html) (good text, but dated html template and non-working page image editions)
 
 ## Technical 
